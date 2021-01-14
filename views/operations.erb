@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <% if @operation == 'add' %>
+        <h1> <%= @num_1 + @num_2 %> </h1>
+    <% elsif @operation == 'subtract' %>
+        <%= @num_1 - @num_2 %>
+    <% elsif @operation == 'multiply' %>
+        <%= @num_1 * @num_2 %>
+    <% elsif @operation == 'divide' %>
+        <%= @num_1 / @num_2 %>
+    <% end %>
+</html>

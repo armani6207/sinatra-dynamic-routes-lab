@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+    <% result = [] %>
+    <% @number.times {result << "#{@phrase}\n"} %>
+    <% n = 0 %>
+    <% while n < @number %>
+        <%= "#{result[n]}" %>
+        <% n += 1 %>
+    <% end %>
+</html>
